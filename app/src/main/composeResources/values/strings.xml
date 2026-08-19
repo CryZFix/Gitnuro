@@ -1,13 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Gitnuro</string>
-
-    <!-- Generic -->
     <string name="generic_button_ok">OK</string>
     <string name="generic_button_cancel">Cancel</string>
     <string name="generic_button_continue">Continue</string>
     <string name="generic_save_as_default">Save as default</string>
-
-    <!-- Home page -->
     <string name="home_button_open_repository">Open a repository</string>
     <string name="home_button_clone_repository">Clone a repository</string>
     <string name="home_button_start_repository">Start a local repository</string>
@@ -16,12 +13,9 @@
     <string name="home_button_report_bug">Report a bug</string>
     <string name="home_button_additional_information">Additional information</string>
     <string name="home_button_settings">Settings</string>
-
     <string name="home_recent_repositories_search_label">Search for recent repositories</string>
     <string name="home_recent_repositories_list_empty">Nothing to see here, open a repository first!</string>
     <string name="home_recent_repositories_remove_repository">Remove repository from recent</string>
-
-    <!-- Top menu -->
     <string name="menu_open">Open</string>
     <string name="menu_open_dialog_title">Open a repository</string>
     <string name="menu_open_tooltip">Open a different repository</string>
@@ -46,18 +40,13 @@
     <string name="menu_actions_tooltip">Additional actions</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_settings_tooltip">Gitnuro's settings</string>
-
     <string name="rebase_interactive_view_title">Rebase interactive</string>
     <string name="rebase_interactive_view_button_complete_rebase">Complete rebase</string>
-
-    <!-- Bottom info bar -->
     <string name="bottom_info_bar_name_and_email">%1$s &lt;%2$s&gt;</string>
     <string name="bottom_info_bar_name_not_set">Name not set</string>
     <string name="bottom_info_bar_email_not_set">Email not set</string>
     <string name="bottom_info_bar_update_available">Update %1$s available</string>
     <string name="bottom_info_bar_app_version">Version %1$s</string>
-
-    <!-- Side pane view -->
     <string name="side_pane_search_hint">Search for branches, tags &amp; more</string>
     <string name="side_pane_local_branches_title">Local branches</string>
     <string name="side_pane_local_branches_current_branch_label">HEAD</string>
@@ -65,18 +54,14 @@
     <string name="side_pane_tags_title">Tags</string>
     <string name="side_pane_stashes_title">Stashes</string>
     <string name="side_pane_submodules_title">Submodules</string>
-
-    <!-- Uncommited changes view -->
     <string name="uncommited_changes_unstaged_title">Unstaged</string>
     <string name="uncommited_changes_unstaged_all_items_action">Stage all</string>
     <string name="uncommited_changes_unstaged_selected_items_action">Stage selected</string>
     <string name="uncommited_changes_unstaged_item_action">Stage</string>
-
     <string name="uncommited_changes_staged_title">Staged</string>
     <string name="uncommited_changes_staged_all_items_action">Unstage all</string>
     <string name="uncommited_changes_staged_selected_items_action">Unstage selected</string>
     <string name="uncommited_changes_staged_item_action">Unstage</string>
-
     <string name="uncommited_changes_text_input_label_message_read_only">Commit message (read-only)</string>
     <string name="uncommited_changes_text_input_label_message">Write your commit message here</string>
     <string name="uncommited_changes_primary_button_commit">Commit</string>
@@ -86,13 +71,9 @@
     <string name="uncommited_changes_primary_button_skip">Skip</string>
     <string name="uncommited_changes_secondary_button_abort">Abort</string>
     <string name="uncommited_changes_amend_check">Amend previous commit</string>
-
-    <!-- Merge automatic stash -->
     <string name="merge_automatic_stash_description">Automatic stash before merge of "%1$s" to "%2$s"</string>
     <string name="pull_with_merge_automatic_stash_description">Automatic stash before pull of "%1$s"</string>
     <string name="pull_with_merge_from_specific_branch_automatic_stash_description">Automatic stash before pull from "%1$s" to "%2$s"</string>
-
-    <!-- Status entries context menu -->
     <string name="status_entries_context_menu_delete_file">Delete file</string>
     <string name="status_entries_context_menu_file_history">File history</string>
     <string name="status_entries_context_menu_blame_file">Blame file</string>
@@ -105,8 +86,6 @@
     <string name="status_entries_context_menu_unstage_multiple_files">Unstage %1$s files</string>
     <string name="status_entries_context_menu_copy_files_absolute_paths">Copy paths</string>
     <string name="status_entries_context_menu_copy_files_relative_paths">Copy relative paths</string>
-
-    <!-- Branch context menu -->
     <string name="branch_context_menu_checkout_branch">Checkout branch</string>
     <string name="branch_context_menu_merge_branch">Merge branch</string>
     <string name="branch_context_menu_rebase_branch">Rebase branch</string>
@@ -117,13 +96,9 @@
     <string name="branch_context_menu_delete_remote_branch">Delete remote branch</string>
     <string name="branch_context_menu_delete_branch">Delete branch</string>
     <string name="branch_context_menu_copy_branch_name">Copy branch name</string>
-
-    <!-- Committed changes context menu -->
     <string name="committed_changes_context_menu_blame_file">Blame file</string>
     <string name="committed_changes_context_menu_file_history">File history</string>
     <string name="committed_changes_context_menu_open_file_in_folder">Open file in folder</string>
-
-    <!-- Log context menu -->
     <string name="log_context_menu_checkout_commit">Checkout commit</string>
     <string name="log_context_menu_create_branch">Create branch</string>
     <string name="log_context_menu_create_tag">Create tag</string>
@@ -131,50 +106,36 @@
     <string name="log_context_menu_revert_commit">Revert commit</string>
     <string name="log_context_menu_cherry_pick_commit">Cherry-pick commit</string>
     <string name="log_context_menu_reset_current_branch_to_commit">Reset current branch to this commit</string>
-
-    <!-- Pull context menu -->
     <string name="pull_context_menu_pull_with_merge">Pull with merge</string>
     <string name="pull_context_menu_pull_with_rebase">Pull with rebase</string>
     <string name="pull_context_menu_fetch_all">Fetch all</string>
-
-    <!-- Push context menu -->
     <string name="push_context_menu_push_including_tags">Push including tags</string>
     <string name="push_context_menu_force_push">Force push</string>
-
-    <!-- Remote context menu -->
     <string name="remote_context_menu_edit">Edit</string>
     <string name="remote_context_menu_delete">Delete</string>
     <string name="remote_context_menu_fetch_all">Fetch branches</string>
-
-    <!-- Stash menu context menu -->
     <string name="stash_context_menu_stash_with_message">Stash with message</string>
-
-    <!-- Stashes context menu -->
     <string name="stashes_context_menu_apply_stash">Apply stash</string>
     <string name="stashes_context_menu_pop_stash">Pop stash</string>
     <string name="stashes_context_menu_drop_stash">Drop stash</string>
-
-    <!-- Status dir entries context menu -->
     <string name="status_dir_entries_context_menu_unstage_changes">Unstage changes in the directory</string>
     <string name="status_dir_entries_context_menu_stage_changes">Stage changes in the directory</string>
     <string name="status_dir_entries_context_menu_discard_changes">Discard changes</string>
-
-    <!-- Submodules context menu -->
     <string name="submodules_context_menu_initialize_submodule">Initialize submodule</string>
     <string name="submodules_context_menu_open_submodule_in_tab">Open submodule in new tab</string>
     <string name="submodules_context_menu_sync_submodule">Sync submodule</string>
     <string name="submodules_context_menu_update_submodule">Update submodule</string>
     <string name="submodules_context_menu_delete_submodule">Delete submodule</string>
-
-    <!-- Tag context menu -->
     <string name="tag_context_menu_checkout_tag_commit">Checkout tag's commit</string>
     <string name="tag_context_menu_delete_tag">Delete tag</string>
-
-    <!-- Settings -->
     <string name="settings_environment_default_clone_directory_title">Default clone directory</string>
     <string name="settings_environment_default_clone_directory_description">Directory that will be used as default when cloning a repository</string>
     <string name="settings_section_user_interface">User interface</string>
     <string name="settings_entry_appearance">Appearance</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_description">Interface language. System default follows the OS locale.</string>
+    <string name="settings_theme_title">Theme</string>
+    <string name="settings_theme_description">Select the UI theme between light and dark mode</string>
     <string name="settings_entry_layout">Layout</string>
     <string name="settings_entry_datetime">Date/Time</string>
     <string name="settings_section_git">GIT</string>
@@ -188,33 +149,64 @@
     <string name="settings_section_tools">Tools</string>
     <string name="settings_entry_terminal">Terminal</string>
     <string name="settings_entry_logs">Logs</string>
-
-    <!-- Notifications -->
+    <string name="settings_lists_spacing_title">Lists spacing (Beta)</string>
+    <string name="settings_lists_spacing_description">Spacing around lists items</string>
+    <string name="settings_scale_title">Scale</string>
+    <string name="settings_scale_description">Adapt the size the UI to your preferred scale</string>
+    <string name="settings_avatar_provider_title">Avatar provider</string>
+    <string name="settings_avatar_provider_description">When using a provider, the e-mail addresses will be hashed using SHA256</string>
+    <string name="settings_avatar_provider_none">None</string>
+    <string name="settings_avatar_provider_gravatar">Gravatar</string>
+    <string name="settings_lists_spacing_spaced">Spaced</string>
+    <string name="settings_lists_spacing_compact">Compact</string>
+    <string name="settings_swap_staged_unstaged_title">Swap position for staged/unstaged views</string>
+    <string name="settings_swap_staged_unstaged_description">Show the list of unstaged changes above the list of staged changes</string>
+    <string name="settings_datetime_use_system_title">Use system's Date/Time format</string>
+    <string name="settings_datetime_use_system_description">If enabled, current date would be shown as "%1$s"</string>
+    <string name="settings_datetime_custom_format_title">Custom date format</string>
+    <string name="settings_datetime_use_24h_title">Use 24h time</string>
+    <string name="settings_datetime_relative_title">Relative date</string>
+    <string name="settings_datetime_relative_description">Use "Today" and "Yesterday" instead of the date</string>
+    <string name="settings_fast_forward_merge_title">Fast-forward merge</string>
+    <string name="settings_fast_forward_merge_description">Try to fast-forward merges when possible</string>
+    <string name="settings_auto_stash_on_merge_title">Automatically stash uncommitted changes before merge</string>
+    <string name="settings_auto_stash_on_merge_description">To avoid losing work if the merge is aborted, the app can create a snapshot of the uncommitted changes</string>
+    <string name="settings_pull_with_rebase_title">Pull with rebase as default</string>
+    <string name="settings_pull_with_rebase_description">Rebase changes instead of merging when pulling</string>
+    <string name="settings_force_push_with_lease_title">Force push with lease</string>
+    <string name="settings_force_push_with_lease_description">Check if the local version remote branch is up to date to avoid accidentally overriding unintended commits</string>
+    <string name="settings_use_proxy_title">Use proxy</string>
+    <string name="settings_use_proxy_description">Set up your proxy configuration if needed</string>
+    <string name="settings_proxy_type_title">Proxy type</string>
+    <string name="settings_proxy_type_description">Pick between HTTP or SOCKS</string>
+    <string name="settings_proxy_host_title">Host name</string>
+    <string name="settings_proxy_port_title">Port number</string>
+    <string name="settings_proxy_auth_title">Proxy authentication</string>
+    <string name="settings_proxy_auth_description">Use your credentials to provide your identity the proxy server</string>
+    <string name="settings_proxy_login_title">Login</string>
+    <string name="settings_proxy_password_title">Password</string>
+    <string name="settings_cache_credentials_title">Cache HTTP credentials in memory</string>
+    <string name="settings_cache_credentials_description">If active, HTTP Credentials will be remembered until Gitnuro is closed</string>
+    <string name="settings_do_not_verify_ssl_title">Do not verify SSL security</string>
+    <string name="settings_do_not_verify_ssl_description">If active, you may connect to the remote server via insecure HTTPS connection</string>
+    <string name="settings_terminal_path_title">Custom terminal path</string>
+    <string name="settings_terminal_path_description">If empty, Gitnuro will try to open the default terminal emulator</string>
+    <string name="settings_logs_title">Logs</string>
+    <string name="settings_logs_description">Open the logs folder</string>
+    <string name="settings_logs_open_folder">Open folder</string>
     <string name="notification_copied_branch_to_clipboard">"%1$s" copied to clipboard</string>
-
-    <!-- Error dialog -->
     <string name="error_dialog_copy_button_tooltip">Copy error</string>
-
-    <!-- Clone -->
     <string name="clone_error_invalid_directory">Invalid empty directory</string>
     <string name="clone_error_invalid_url">Invalid empty URL</string>
     <string name="clone_error_invalid_folder_name">Invalid empty folder name</string>
-
-    <!-- Errors -->
     <string name="error_create_branch_already_exists">Branch "%1$s" already exists, please try with a different name</string>
     <string name="error_create_branch_name_not_allowed">Branch name "%1$s" is not allowed, please use only alphanumeric characters.</string>
-
     <string name="error_hook_rejection">Commit rejected by hook: "%1$s"</string>
-
     <string name="error_repository_path_not_set">Repository path is not stored, if you believe this is a bug, please report it to Gitnuro's issue tracker.</string>
     <string name="error_repository_read_error">Failed to read a repository: %1$s. Please verify the repository exists and it's accessible.</string>
-
     <string name="error_stash_no_data">No data to stash</string>
-
     <string name="error_open_repository_dir_not_found">Failed to open repository, please verify it exists and it's accessible</string>
     <string name="error_open_repository_path_is_not_dir">Failed to open repository, specified path is not a directory</string>
     <string name="error_open_repository_repository_load">Failed to open repository, could not load repository: %1$s</string>
     <string name="error_open_repository_repo_not_found">Failed to open repository, could not find a repository in the specified path</string>
-
-
 </resources>
